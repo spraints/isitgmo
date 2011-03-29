@@ -1,0 +1,21 @@
+body
+{
+  background-color: white;
+}
+
+.answer
+{
+  color: black;
+  font-weight: bold;
+  font-size: 120pt;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 400px;
+}
+
+.answer a
+{
+  text-decoration: inherit;
+  color: inherit;
+}
