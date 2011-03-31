@@ -11,7 +11,9 @@ body
   font-family: Arial, sans-serif;
   text-align: center;
   padding-top: 200px;
+  /*
   padding-bottom: 400px;
+  */
 }
 
 .answer a
@@ -19,3 +21,22 @@ body
   text-decoration: inherit;
   color: inherit;
 }
+
+.coming_soon
+{
+  font-size: 20pt;
+  color: #ddd;
+}
+
+#main, #more_info
+{
+  display:none;
+}
+
+/*
+#more_info
+{
+  border: red double 10px;
+  background-color: blue;
+}
+*/
