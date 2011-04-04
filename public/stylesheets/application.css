@@ -7,13 +7,10 @@ body
 {
   color: black;
   font-weight: bold;
-  font-size: 120pt;
+  font-size: 160px;
   font-family: Arial, sans-serif;
   text-align: center;
   padding-top: 200px;
-  /*
-  padding-bottom: 400px;
-  */
 }
 
 .answer a
@@ -22,21 +19,19 @@ body
   color: inherit;
 }
 
-.coming_soon
+#teaser
 {
-  font-size: 20pt;
-  color: #ddd;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 16em;
+  left: 50%;
+  margin-left: -8em;
 }
 
-#main, #more_info
+.noshow
 {
   display:none;
+  font-size: 20pt;
+  color: #bbb;
 }
-
-/*
-#more_info
-{
-  border: red double 10px;
-  background-color: blue;
-}
-*/

@@ -1,2 +1,14 @@
-// Place your application-specific JavaScript functions and classes here
-// This file is automatically included by javascript_include_tag :defaults
+$(function() {
+  $('body').mousemove(function() {
+    $('#teaser').fadeIn();
+  });
+  $(window).resize(sizeEverything);
+  sizeEverything();
+});
+
+function sizeEverything() {
+  var height = window.innerHeight;
+  if(height < 380)
+    height = 380;
+  $('header').height(height);
+}
