@@ -11,6 +11,7 @@ body
   font-family: Arial, sans-serif;
   text-align: center;
   padding-top: 200px;
+  padding-bottom: 300px;
 }
 
 .answer a
@@ -21,17 +22,12 @@ body
 
 #teaser
 {
-  position: absolute;
-  bottom: 0;
   text-align: center;
-  width: 16em;
-  left: 50%;
-  margin-left: -8em;
+  font-size: 20pt;
+  color: #bbb;
 }
 
 .noshow
 {
   display:none;
-  font-size: 20pt;
-  color: #bbb;
 }
