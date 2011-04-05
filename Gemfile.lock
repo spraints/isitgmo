@@ -50,6 +50,8 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    maruku (0.6.0)
+      syntax (>= 1.0.0)
     mime-types (1.16)
     newrelic_rpm (2.13.5)
     polyglot (0.3.1)
@@ -91,6 +93,7 @@ GEM
     ruby-debug-base (0.10.4)
       linecache (>= 0.3)
     sqlite3 (1.3.3)
+    syntax (1.0.0)
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
@@ -102,6 +105,7 @@ PLATFORMS
 DEPENDENCIES
   haml-rails
   jquery-rails
+  maruku
   newrelic_rpm
   rails (= 3.0.5)
   rspec-rails

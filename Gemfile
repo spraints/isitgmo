@@ -9,3 +9,4 @@ group :development, :test do
   gem 'sqlite3'
 end
 gem 'newrelic_rpm'
+gem 'maruku'
