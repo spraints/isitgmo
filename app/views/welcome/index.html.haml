@@ -1,46 +1,71 @@
 .answer
   YES
 
-#teaser
+.teaser
   Wait a minute. Really?
 
-%div
-  %h2 And why should I care?
-  #impacts
-    #economic
-      #not_better_yielding_compared_to_normal_hybrids
-      #intellectual_property
-    #environmental
-      #more_roundup_and_fewer_weeds_except_super_weeds
-      #more_bt_and_fewer_bugs_except_super_bugs
-      #contamination_of_non_gmo_seed_stock
-        #alfalfa
-        #sugar_beets
-    #health
-      #allergies_maybe
-      #largely_unknown
+.section
+  %h2 What does "GMO" mean?
+  :markdown
+    First, an explanation of what GMO means.
+    GMO stands for genetically-modified organism.
 
-%div
-  %h2 OK, but how do you know my food is GMO?
-  %p
-    In the U.S., most processed food contains ingredients derived from
-    genetically modified organisms (GMOs).
-  #gmo_list
-    %ul
-      %li Soybeans (roundup-ready)
-      %li Corn (roundup-ready, Bt)
-      %li Cotton/cottonseed oil (Bt)
-      %li Alfalfa (temporarily banned from 2008-2010)
-      %li Hawaiian papaya (virus resistance)
-      %li Tomatoes (better shipping/storage qualities) (no longer marketed)
-      %li Rapeseed/canola (roundup-ready)
-      %li Sugar cane (more sucrose, pesticide resistance)
-      %li Sugar beet (roundup-ready)
-      %li Rice (vitamin A)
-      %li Squash (virus resistance)
-      %li Sweet Peppers (resistance to virus)
-      %li Potato (Bt? virus resistance?)
-      %li Flax (roundup-ready)
-      %li Radish (roundup-ready)
-    =link_to 'Source', 'http://en.wikipedia.org/wiki/Genetically_modified_food'
+    A GMO is an organism (for example, a plant or animal)
+    "[whose genetic material has been altered using genetic engineering
+    techniques][wp-gmo]." To date, most GMOs in agriculture
+    are plants. The most prevalent GMO crops are
+    cotton,
+    corn,
+    and soybeans.
+    The most commonly-inserted genes (or traits) are
+    herbicide tolerance,
+    pest tolerance,
+    disease tolerance,
+    and sterility.
 
+    ### Herbicide Tolerance
+
+    Herbicide tolerance means that a field can be treated with a
+    herbicide that would normally be damaging to the crop. Weeds
+    aren't naturally herbicide tolerant, so they are still killed
+    by the herbicide. A common herbicide resistant trait is
+    glyphosphate resistance (Roundup Ready&reg;).
+
+    ### Pest Tolerance
+
+    Pest tolerance causes a crop to have fewer pest problems than
+    normal. A common pest-tolerant trait is [Bt][bt] production.
+
+    [wp-gmo]: http://en.wikipedia.org/wiki/Genetically_modified_organism
+    [bt]: http://en.wikipedia.org/wiki/Bacillus_thuringiensis
+
+.section
+  %h2 How does it get in my food?
+  :markdown
+    Virtually all processed food contains soy or corn derivatives,
+    and most of the soy & corn grown in the US is GMO.
+    Do the math.
+
+.section
+  %h2 Why does it matter?
+  :markdown
+    * Impact on human health is not well-understood
+    * Potential allergens
+    * Bt-crops produce high levels of pesticides, and pesticide tolerance / insect wipeout, other aquatic life problems
+      * If every cell of your food can produce a pesticide, you can't just wash it off.
+    * Herbicide application & runoff
+    * Superweeds
+    * Contamination of non-GMO seed stock with GMO traits.
+    * No crop yield increases
+    * Economics for farmers
+
+.section
+  %h2 What can I do?
+  :markdown
+    * Tell everyone
+    * Buy food with no GMOs
+    * etc.
+
+    ### See also
+
+    * [Non-GMO Shopping Guide](http://www.nongmoshoppingguide.com/)
