@@ -20,14 +20,42 @@ body
   color: inherit;
 }
 
-#teaser
+.teaser
 {
   text-align: center;
   font-size: 20pt;
-  color: #bbb;
+  color: #888;
+  padding-bottom: 5em;
 }
 
-.noshow
+/* http://colorschemedesigner.com/#0Z11Tw0w0w0w0 */
+
+.section
 {
-  display:none;
+  border-top: solid 3px #a67000;
+  padding: 2em;
+  background-color: #ffd273;
+  color: #734000;
+  font-family: Arial;
+}
+
+.section > h2
+{
+  color: #a67000;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-family: Arial;
+  letter-spacing: 0.5px;
+}
+
+.section h3
+{
+  color: #a67000;
+  border-bottom: solid 1px #a67000;
+  font-family: Arial;
+}
+
+.rest
+{
+  display: none;
 }
