@@ -55,6 +55,18 @@ body
   font-family: Arial;
 }
 
+.section :link, .section :visited
+{
+  color: #a67000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section :link:hover, .section :link:active
+{
+  text-decoration: underline;
+}
+
 .rest
 {
   display: none;
